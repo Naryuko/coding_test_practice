@@ -26,8 +26,6 @@ func solution(_ n:Int, _ results:[[Int]]) -> Int {
             }
         }
     }
-    print(winList)
-    print(loseList)
     
     var ret: Int = 0;
     for i in 0...n {
