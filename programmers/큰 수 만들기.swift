@@ -38,3 +38,11 @@ func findMax (a: [Character], start: Int, end: Int) -> (Int, Character) {
     
     return (index, maxx)
 }
+
+// String을 python과 같이 인덱싱으로 접근하는 방법
+extension String {
+    subscript (value: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: value)]
+    }
+}
+
