@@ -47,7 +47,6 @@ func solution(_ user_id:[String], _ banned_id:[String]) -> Int {
         }
     }
     
-    print(answerSet)
     return answerSet.count
 }
 
